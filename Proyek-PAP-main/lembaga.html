@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+
+<head>
+	<meta charset="UTF-8">
+	<title>Dashboard | Website IT Del</title>
+	<link rel="stylesheet" href="pengumuman.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+    <div class="sidebar">
+    <div class="logo"></div> 
+    <ul class="menu">
+        <li></li>
+            <a href="admin.html">
+            <i class="fas fa-graduation-cap"></i>
+            <span class="nav-item">Dashboard</span>
+        </a></li>
+        <li><a href="ProgramPendidikan.html">
+            <i class="fas fa-graduation-cap"></i>
+            <span class="nav-item">Program Pendidikan</span>
+        </a></li>
+        <li  class="active">
+            <a href="lembaga.html">
+            <i class="fas fa-users"></i>
+            <span class="nav-item">Lembaga</span>
+        </a></li>
+        <li><a href="fasilitas.html">
+            <i class="fas fa-building"></i>
+            <span class="nav-item">Fasilitas</span>
+        </a></li>
+        <li><a href="pengumuman.html">
+            <i class="fas fa-bullhorn"></i>
+            <span class="nav-item">Pengumuman</span>
+        </a></li>
+        <li><a href=" " class="logout">
+            <i class="fas fa-sign-out-alt"></i>
+            <span class="nav-item">Logout</span>
+        </a></li>
+    </ul>
+    </div>
+
+    <div class="main--content">
+        <div class="header--wrapper">
+            <div class="header--title">
+                <span>Admin</span>
+                <h2>CRUD Lembaga</h2>
+            </div>
+        </div>
+        
+        <div class="tabular--wrapper">
+            <h3 class="main--title"> Tambah Informasi </h3>
+            <div class="table-container"></div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Judul Informasi</th>
+                        <th>Gambar</th>
+                        <th>Deskripsi</th>
+                        <th>Edit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2023-11-23</td>
+                        <td>Pengumuman</td>
+                        <td>IT Del Sosialisasikan Program MBKM kepada Mahasiswa</td>
+                        <td>
+                            <a href="#"><button class="btn btn-primary btn-sm">Tambah</button></a>
+                            <a href="#"><button class="btn btn-outline-primary btn-sm">Edit</button></a>
+                            <button class="btn btn-sm">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2023-10-30</td>
+                        <td>Fasilitas</td>
+                        <td>Laboratorium Komputer dan Bahasa</td>
+                        <td>
+                            <a href="#"><button class="btn btn-primary btn-sm">Tambah</button></a>
+                            <a href="#"><button class="btn btn-outline-primary btn-sm">Edit</button></a>
+                            <button class="btn btn-sm">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <footer class="footer mt-auto py-3">
+                <div class="container-footer">
+                    <hr>
+                    <span class="text-muted">
+                        Copyright SDI-IT Del © 2023 Institut Teknologi Del. All Rights Reserved
+                    </span>
+                    </span>
+                </div>
+            </footer>
+        </div>
+        </div>
+        </body>
+    
